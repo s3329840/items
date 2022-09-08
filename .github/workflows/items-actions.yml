@@ -6,13 +6,6 @@ on:
       - 'main'
       - 'release'
 
-
-on:
-  push:
-    branches-ignore:
-      - 'master'
-      - 'release*'
-
 jobs:
 
   test:
