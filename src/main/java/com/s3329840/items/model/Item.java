@@ -2,7 +2,7 @@ package com.s3329840.items.model;
 
 public class Item {
 
-    private Long id;
+    private int id;
     private String name;
     private String desc;
     private String image;
@@ -10,7 +10,7 @@ public class Item {
 
     public Item() {}
 
-    public Item(Long id, String name, String desc, String image, double price) {
+    public Item(int id, String name, String desc, String image, double price) {
         this.id = id;
         this.name = name;
         this.desc = desc;
@@ -18,11 +18,11 @@ public class Item {
         this.price = price;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
